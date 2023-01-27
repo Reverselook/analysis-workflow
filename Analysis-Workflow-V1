@@ -1,0 +1,45 @@
+/*
+ * ┌──────────────┐  ┌─────────────┐ ┌───────────────┐  ┌───────────────┐  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐
+ * │              │  │   OBTAIN    │ │  CATALOG      │  │               │  │              │  │   DYNAMIC    │  │              │
+ * │   INPUTS     │  │   MALWARE   │ │  SAMPLE(S)    │  │   RESEARCH    │  │   SANDBOX    │  │   REVIEW     │  │   REPORT     │
+ * │              │  │             │ │               │  │               │  │              │  │              │  │              │
+ * └──────────────┘  └─────────────┘ └───────────────┘  └───────────────┘  └──────┬───────┘  └──────┬───────┘  └──────────────┘
+ *                                                                                │                 │
+ *                                                                         ┌──────┴───────┐  ┌──────┴───────┐
+ *                                                                         │ STATIC FILE  │  │ ADDITIONAL   │
+ *                                                                         │   ANALYSIS   │  │STATIC REVIEW │
+ *                                                                         │ (IF NEEDED)  │  │ (IF NEEDED)  │
+ *                                                                         └──────────────┘  └──────────────┘
+ */
+ 
+ 
+ INPUTS:
+ - OPEN SOURCE 
+ - RESEARCH 
+ - ANALYSIS REQUEST
+
+OBTAIN MALWARE:
+- THERE ARE SEVERAL OPEN SOURCE MALWARE REPOSITORIES YOU CAN DOWNLOAD MALWARE FROM. SOME EXAMPLES BELOW:
+  -> MALWARE BAZAAR
+  -> VIRUSTOTAL
+
+CATALOG SAMPLE:
+- LEVERAGE AUTOMATION
+- CREATE A MANUAL FOLDER/FILE STRUCTURE TO STAY ORGANIZED
+- COLLECT SAMPLE, NOTATE STATIC CHARACTERISTICS (STRINGS, NOTABLE APIS...ETC.)
+
+RESEARCH:
+- HAVE OTHER PEOPLE REPORTED ON THIS ANALYSIS VIA OPEN SOURCE? IF SO, REFERENCE AND REVIEW IN YOUR ATTEMPTS
+
+SANDBOX:
+- RUN THE SAMPLE THROUGH A SANDBOX TO GET AN IDEA OF THE SAMPES CAPABILITIES
+-->SOME STATIC FILE ANALYSIS CAN ALSO OCCURE AT THIS STAGE
+
+DYNAMIC REVIEW:
+- IN A VIRTUALIZED ENVIORNMENT, RUN THE SAMPLE AND OBSERVE/DOCUMENT THE RESULTS
+-->IF NECESSARY, RE OF THE SAMPLE CAN OCCUR AT THIS STAGE
+
+REPORTING:
+- GATHER ALL OF THE DETAILS/ARTIFACTS AND DEPENDING ON YOUR AUDIENCE AND DEVELOP REPORTING
+- YOU CAN ALSO HAVE A PEER REVIEW YOUR WORK
+- NOTE: YOUR REPORT MAY ALSO INCLUDE DETECTION/AUTOMATED SCRIPTS FOR DETECTION...ETC.
